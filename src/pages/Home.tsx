@@ -213,7 +213,7 @@ const Home = () => {
             Let's create something beautiful together.
           </p>
           <a
-            href={`https://wa.me/919876543210?text=${encodeURIComponent("Hello Prajaga Interiors, I would like to enquire about interior design.")}`}
+            href={`https://wa.me/917416819365?text=${encodeURIComponent("Hello Prajaga Interiors, I would like to enquire about interior design.")}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-10 py-4 gold-bg text-charcoal font-body text-sm tracking-widest uppercase hover:opacity-90 transition-opacity"
