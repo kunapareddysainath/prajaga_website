@@ -58,13 +58,15 @@ const Footer = () => (
           </h4>
 
           <div className="flex flex-col gap-3 text-sm">
-            {["+91 88971 43659", "+91 95811 25699", "+91 74168 19365"].map(
-              (num, i) => (
-                <span key={i} className="flex items-center gap-2">
-                  <Phone size={16} /> {num}
-                </span>
-              ),
-            )}
+            {[
+              "+91 88971 43659 - Jagadish",
+              "+91 95811 25699 - Vamsi",
+              "+91 74168 19365 - Ganesh(Interior Designer)",
+            ].map((num, i) => (
+              <span key={i} className="flex items-center gap-2">
+                <Phone size={16} /> {num}
+              </span>
+            ))}
           </div>
         </div>
 
@@ -77,9 +79,8 @@ const Footer = () => (
           <div className="flex items-start gap-2 text-sm leading-relaxed">
             <MapPin size={18} className="mt-1" />
             <span>
-              12-7-134/192, Flat No: 502 <br />
-              Bhavya Sri Residency <br />
-              Anjaneya Nagar, Moosapet
+              Padmaja Avenue <br />
+              Anjaneya Nagar, Kukatpally, Hyderabad -500018
             </span>
           </div>
         </div>
@@ -97,14 +98,6 @@ const Footer = () => (
           >
             <Instagram size={18} /> Instagram
           </a>
-
-          <a
-            href="#"
-            className="flex items-center gap-2 hover:text-gold transition-colors"
-          >
-            <Facebook size={18} /> Facebook
-          </a>
-
           <a
             href="mailto:info.prajagainteriors@gmail.com"
             className="flex items-center gap-2 hover:text-gold transition-colors"
